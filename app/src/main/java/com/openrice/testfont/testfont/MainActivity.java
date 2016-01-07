@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (Exception e) {
                     Toast.makeText(MainActivity.this, "Invalid number format!", Toast.LENGTH_SHORT).show();
                 }
+                input.setTextSize(TypedValue.COMPLEX_UNIT_SP, size);
                 result.setTextSize(TypedValue.COMPLEX_UNIT_SP, size);
             }
 
